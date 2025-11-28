@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paris SEO AI Automation - Optimisez votre classement SEO avec l'intelligence artificielle. Automatisez vos tâches SEO et augmentez votre trafic organique.">
+    <meta name="keywords" content="SEO, AI, Automation, Classement, Trafic organique, Paris">
+    <meta name="author" content="Paris SEO AI Automation">
+    <title>Paris SEO AI Automation - Optimisation SEO Automatisée par IA</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .bg-primary {
+            background-color: #5B4BFF;
+        }
+        
+        .bg-secondary {
+            background-color: #EEF0FF;
+        }
+        
+        .bg-accent {
+            background-color: #00E5A8;
+        }
+        
+        .text-primary {
+            color: #5B4BFF;
+        }
+        
+        .text-accent {
+            color: #00E5A8;
+        }
+        
+        .border-primary {
+            border-color: #5B4BFF;
+        }
+        
+        .hover-lift {
+            transition: all 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-4px);
+        }
+        
+        .btn-primary {
+            background-color: #5B4BFF;
+            color: white;
+            border-radius: 9999px;
+            padding: 12px 32px;
+            font-weight: 600;
+            transition: all 300ms ease-out;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary:hover {
+            filter: brightness(1.1);
+            transform: scale(1.05);
+            box-shadow: 0 10px 40px rgba(91, 75, 255, 0.3);
+        }
+        
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            transition: all 300ms ease-out;
+        }
+        
+        .faq-question:hover {
+            color: #5B4BFF;
+        }
+        
+        .faq-icon {
+            transition: transform 300ms ease-out;
+        }
+        
+        .card-hover {
+            transition: all 300ms ease-out;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 50px rgba(91, 75, 255, 0.2);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #5B4BFF 0%, #00E5A8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .overlay-gradient {
+            background: linear-gradient(135deg, rgba(91, 75, 255, 0.95) 0%, rgba(0, 229, 168, 0.9) 100%);
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-8 md:px-16 py-6 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+                    <i class="fas fa-rocket text-white text-lg"></i>
+                </div>
+                <span class="font-bold text-xl text-gray-900">Paris SEO AI</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#features" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300">Fonctionnalités</a>
+                <a href="#benefits" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300">Avantages</a>
+                <a href="#testimonials" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300">Témoignages</a>
+                <a href="#faq" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300">FAQ</a>
+                <a href="https://pac.com" class="btn-primary">Commencer</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors duration-300">
+                <i class="fas fa-bars text-xl text-gray-900"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden bg-white border-t border-gray-200">
+            <div class="px-8 py-4 flex flex-col gap-4">
+                <a href="#features" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300 py-2">Fonctionnalités</a>
+                <a href="#benefits" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300 py-2">Avantages</a>
+                <a href="#testimonials" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300 py-2">Témoignages</a>
+                <a href="#faq" class="text-gray-700 font-medium hover:text-primary transition-colors duration-300 py-2">FAQ</a>
+                <a href="https://pac.com" class="btn-primary w-full text-center">Commencer</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-white via-secondary to-white py-32 md:py-40 overflow-hidden">
+        <!-- Decorative Elements -->
+        <div class="absolute top-10 right-10 w-72 h-72 bg-primary opacity-5 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-96 h-96 bg-accent opacity-5 rounded-full blur-3xl"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <!-- Left Content -->
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight leading-tight mb-6">
+                            Paris SEO <span class="gradient-text">AI Automation</span>
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
+                            Révolutionnez votre stratégie SEO avec l'intelligence artificielle. Automatisez vos tâches, classez plus haut et augmentez votre trafic organique en quelques semaines.
+                        </p>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://pac.com" class="btn-primary text-center">
+                            <i class="fas fa-arrow-right mr-2"></i>Démarrer Gratuitement
+                        </a>
+                        <button class="px-8 py-3 border-2 border-primary text-primary rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-300 cursor-pointer">
+                            <i class="fas fa-play-circle mr-2"></i>Voir la Démo
+                        </button>
+                    </div>
+                    
+                    <div class="flex flex-col sm:flex-row gap-8 pt-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
+                                <i class="fas fa-check text-white font-bold"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-900">Aucune Carte de Crédit</p>
+                                <p class="text-sm text-gray-600">Essai gratuit complet</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
+                                <i class="fas fa-bolt text-white font-bold"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-900">Résultats Rapides</p>
+                                <p class="text-sm text-gray-600">En moins de 7 jours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Illustration -->
+                <div class="hidden lg:flex items-center justify-center">
+                    <div class="relative w-full h-96">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary to-accent opacity-10 rounded-3xl blur-2xl"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center animate-float">
+                                <div class="w-32 h-32 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6 shadow-lg">
+                                    <i class="fas fa-chart-line text-white text-5xl"></i>
+                                </div>
+                                <p class="text-lg font-bold text-primary">+250% Trafic</p>
+                                <p class="text-sm text-gray-600">en moyenne</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight mb-6">
+                    Fonctionnalités Puissantes Alimentées par l'IA
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Découvrez nos outils d'optimisation SEO de pointe, conçus pour automatiser et accélérer votre croissance organique avec une précision remarquable.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16">
+                <!-- Feature 1 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-full bg-secondary flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Optimisation IA Automatisée</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Notre système d'IA analyse vos contenus et les optimise automatiquement pour les moteurs de recherche. Détection des mots-clés, amélioration des méta-descriptions, et restructuration du contenu en temps réel.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Analyse en temps réel</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Suggestions intelligentes</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Mise à jour automatique</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-full bg-secondary flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Augmentation du Classement</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Utilisez nos algorithmes propriétaires pour booster votre classement rapidement. Nous ciblons les opportunités de mots-clés à faible concurrence pour des résultats immédiats et durables.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Croissance rapide</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Stratégie personnalisée</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Résultats mesurables</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-full bg-secondary flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Automatisation Complète</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Automatisez toutes vos tâches SEO répétitives. De la création de contenu à la construction de backlinks, notre plateforme gère tout pour vous, 24/7, sans intervention manuelle.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Fonctionnement 24/7</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Zéro intervention manuelle</span>
+                        </li>
+                        <li class="flex items-center gap-2 text-sm text-gray-700">
+                            <i class="fas fa-check text-accent"></i>
+                            <span>Efficacité maximale</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 md:py-32 bg-secondary">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight mb-6">
+                    Avantages Transformateurs
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Découvrez comment Paris SEO AI Automation peut transformer votre présence en ligne et générer des résultats extraordinaires pour votre entreprise.
+                </p>
+            </div>
+            
+            <div class="space-y-12 md:space-y-16">
+                <!-- Benefit 1 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <div class="w-full h-80 rounded-2xl bg-gradient-to-br from-primary to-accent opacity-20"></div>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-arrow-trending-up text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">Classement Plus Élevé, Plus Rapide</h3>
+                                <p class="text-gray-700 leading-relaxed mb-4">
+                                    Nos utilisateurs voient en moyenne une augmentation de 250% de leur trafic organique en moins de 3 mois. Grâce à notre approche basée sur l'IA, nous identifions les opportunités cachées que vos concurrents ignorent.
+                                </p>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Résultats visibles en 7 jours</span>
+                                    </li>
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Croissance exponentielle</span>
+                                    </li>
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Domination des SERP</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-robot text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">Automatisation des Tâches SEO</h3>
+                                <p class="text-gray-700 leading-relaxed mb-4">
+                                    Éliminez les tâches fastidieuses et répétitives. Notre plateforme automatise la recherche de mots-clés, la création de contenu optimisé, l'analyse des concurrents, et bien plus encore.
+                                </p>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Économisez 20+ heures par mois</span>
+                                    </li>
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Concentration sur la stratégie</span>
+                                    </li>
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Productivité décuplée</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="w-full h-80 rounded-2xl bg-gradient-to-br from-accent to-primary opacity-20"></div>
+                    </div>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <div class="w-full h-80 rounded-2xl bg-gradient-to-br from-primary to-accent opacity-20"></div>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <div class="flex items-start gap-4 mb-4">
+                            <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-chart-bar text-white text-lg"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-bold text-gray-900 mb-3">Augmentation du Trafic Organique</h3>
+                                <p class="text-gray-700 leading-relaxed mb-4">
+                                    Transformez votre trafic organique en revenus réels. Nos clients voient une augmentation moyenne de 180% de leurs conversions grâce à un trafic qualifié et hautement ciblé.
+                                </p>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Trafic qualifié et ciblé</span>
+                                    </li>
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>ROI mesurable</span>
+                                    </li>
+                                    <li class="flex items-center gap-2 text-gray-700">
+                                        <i class="fas fa-check text-accent font-bold"></i>
+                                        <span>Croissance durable</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background Image -->
+    <section class="relative py-20 md:py-32 overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900 opacity-75"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-8 md:px-16 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight mb-6 leading-tight">
+                Prêt à Transformer Votre SEO?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed mb-8">
+                Rejoignez des centaines d'entreprises qui augmentent leur trafic organique et leurs conversions avec Paris SEO AI Automation. Commencez votre essai gratuit dès aujourd'hui.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://pac.com" class="btn-primary text-center">
+                    <i class="fas fa-star mr-2"></i>Démarrer l'Essai Gratuit
+                </a>
+                <button class="px-8 py-3 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300 cursor-pointer">
+                    <i class="fas fa-phone mr-2"></i>Nous Contacter
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight mb-6">
+                    Ce Que Disent Nos Clients
+                </h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Découvrez comment Paris SEO AI Automation a transformé les résultats de nos clients avec des résultats concrets et mesurables.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 md:gap-16">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 italic">
+                        "Paris SEO AI Automation a complètement transformé notre stratégie digitale. En seulement 2 mois, nous avons vu notre trafic organique augmenter de 320%. C'est incroyable comment l'IA peut identifier les opportunités que nous avions manquées. Hautement recommandé!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Marie Dubois</p>
+                            <p class="text-sm text-gray-600">Directrice Marketing, Tech Solutions Paris</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 italic">
+                        "Nous avons économisé plus de 30 heures par mois en automatisation SEO. L'outil analyse nos contenus, suggère des optimisations et les implémente automatiquement. Notre équipe peut maintenant se concentrer sur la stratégie plutôt que les tâches répétitives. Excellent investissement!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Jean-Pierre Martin</p>
+                            <p class="text-sm text-gray-600">Responsable SEO, E-Commerce Luxe</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 italic">
+                        "Nos conversions ont augmenté de 185% depuis que nous utilisons Paris SEO AI Automation. Le trafic est plus qualifié, les utilisateurs restent plus longtemps sur notre site, et nos ventes ont explosé. C'est le meilleur outil SEO que nous ayons jamais utilisé."
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Sophie Laurent</p>
+                            <p class="text-sm text-gray-600">PDG, Agence Web Créative</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-white rounded-2xl p-8 border border-gray-100 shadow-md hover:shadow-xl">
+                    <div class="flex items-center gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-6 italic">
+                        "En tant que startup, nous n'avions pas le budget pour une agence SEO. Paris SEO AI Automation nous a permis de concurrencer les grandes entreprises. Nos mots-clés cibles sont maintenant en première page de Google. C'est un game-changer pour nous!"
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fas fa-user text-white"></i>
+                        </div>
+                        <div>
+                            <p class="font-semibold text-gray-900">Thomas Rousseau</p>
+                            <p class="text-sm text-gray-600">Fondateur, StartUp Tech Innovante</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-20 md:py-32 bg-secondary">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight mb-6">
+                    À Propos de Nous
+                </h2>
+            </div>
+            
+            <div class="space-y-8">
+                <p class="text-lg text-gray-700 leading-relaxed font-medium">
+                    Paris SEO AI Automation a été fondée en 2022 par une équipe d'experts en SEO et en intelligence artificielle passionnés par la démocratisation de l'optimisation moteur de recherche. Après avoir constaté que les petites et moyennes entreprises n'avaient pas accès aux mêmes outils que les grandes corporations, nous avons décidé de créer une solution révolutionnaire. Aujourd'hui, nous servons plus de 5 000 clients dans 45 pays, aidant chacun d'eux à atteindre leurs objectifs de croissance organique avec une technologie de pointe et un support client exceptionnel.
+                </p>
+                
+                <p class="text-lg text-gray-700 leading-relaxed font-medium">
+                    Notre mission est simple : rendre le SEO accessible, automatisé et rentable pour tous. Nous croyons que chaque entreprise, quelle que soit sa taille, mérite d'avoir accès à des outils SEO de classe mondiale. Nous nous engageons à l'innovation continue, à la transparence totale, et à la création de valeur réelle pour nos clients. Nos valeurs fondamentales - l'intégrité, l'excellence et l'impact social - guident chacune de nos décisions et nous permettent de construire des relations durables avec nos clients et partenaires.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 md:py-32 bg-white">
+        <div class="max-w-4xl mx-auto px-8 md:px-16">
+            <div class="text-center mb-16 md:mb-20">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight mb-6">
+                    Questions Fréquemment Posées
+                </h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Trouvez les réponses à vos questions les plus fréquentes sur Paris SEO AI Automation.
+                </p>
+            </div>
+            
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+                    <div class="faq-question p-8 cursor-pointer flex items-center justify-between hover:bg-secondary transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-gray-900">Comment Paris SEO AI Automation améliore-t-il mon classement?</h3>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-8 text-gray-700 leading-relaxed border-t border-gray-200 animate-in">
+                        <p class="mb-4">
+                            Paris SEO AI Automation utilise des algorithmes d'apprentissage automatique avancés pour analyser vos contenus et les moteurs de recherche. Notre système identifie les opportunités de mots-clés à faible concurrence, optimise vos méta-données, améliore la structure de votre site, et construit des backlinks de qualité automatiquement. Nous analysons également vos concurrents pour vous aider à rester en avant. Le résultat: une augmentation rapide et durable de votre classement Google.
+                        </p>
+                        <p>
+                            En moyenne, nos clients voient une augmentation de 250% de leur trafic organique en moins de 3 mois. Cela se traduit par plus de prospects qualifiés et plus de conversions pour votre entreprise.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+                    <div class="faq-question p-8 cursor-pointer flex items-center justify-between hover:bg-secondary transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-gray-900">Combien de temps faut-il pour voir les résultats?</h3>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-8 text-gray-700 leading-relaxed border-t border-gray-200 animate-in">
+                        <p class="mb-4">
+                            Vous pouvez commencer à voir les premiers résultats en aussi peu que 7 jours! Notre système commence immédiatement à analyser et optimiser votre site. Les premiers changements sont généralement visibles dans les 2 semaines, avec des améliorations de classement notables en 4 à 8 semaines.
+                        </p>
+                        <p class="mb-4">
+                            Cependant, le SEO est un processus continu. Pour des résultats maximaux et durables, nous recommandons une utilisation de 3 à 6 mois minimum. Les résultats à long terme deviennent de plus en plus impressionnants au fil du temps, avec certains clients voyant une augmentation de 500% ou plus après 6 mois.
+                        </p>
+                        <p>
+                            Chaque site est unique, donc les résultats peuvent varier selon votre niche, votre concurrence, et l'état actuel de votre SEO.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+                    <div class="faq-question p-8 cursor-pointer flex items-center justify-between hover:bg-secondary transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-gray-900">Puis-je annuler mon abonnement à tout moment?</h3>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-8 text-gray-700 leading-relaxed border-t border-gray-200 animate-in">
+                        <p class="mb-4">
+                            Absolument! Nous croyons à la flexibilité et à la transparence. Vous pouvez annuler votre abonnement à tout moment sans frais cachés, sans pénalité, et sans justification. Il vous suffit de vous connecter à votre compte et de cliquer sur "Annuler l'abonnement".
+                        </p>
+                        <p class="mb-4">
+                            Nous offrons également une garantie de satisfaction de 30 jours. Si vous n'êtes pas satisfait de nos services, nous vous remboursons intégralement votre argent, aucune question posée.
+                        </p>
+                        <p>
+                            Cependant, nous sommes confiants que vous aimerez les résultats. La plupart de nos clients restent avec nous pendant plusieurs années car ils voient un retour sur investissement réel et mesurable.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+                    <div class="faq-question p-8 cursor-pointer flex items-center justify-between hover:bg-secondary transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-gray-900">Quels types de sites web pouvez-vous optimiser?</h3>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-8 text-gray-700 leading-relaxed border-t border-gray-200 animate-in">
+                        <p class="mb-4">
+                            Paris SEO AI Automation peut optimiser pratiquement n'importe quel type de site web: blogs, e-commerce, sites d'agences, sites d'entreprises, portails d'information, et plus encore. Notre plateforme est compatible avec tous les CMS populaires: WordPress, Shopify, Wix, Squarespace, Magento, et bien d'autres.
+                        </p>
+                        <p class="mb-4">
+                            Nous travaillons avec des entreprises de toutes tailles, des startups aux grandes corporations. Notre système s'adapte automatiquement à votre industrie, votre marché cible, et vos objectifs spécifiques.
+                        </p>
+                        <p>
+                            Que vous soyez dans la technologie, la santé, le retail, les services financiers, ou n'importe quel autre secteur, nous avons l'expertise et les outils pour vous aider à dominer votre marché localement et mondialement.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
+                    <div class="faq-question p-8 cursor-pointer flex items-center justify-between hover:bg-secondary transition-colors duration-300">
+                        <h3 class="text-lg font-semibold text-gray-900">Quel est le prix de Paris SEO AI Automation?</h3>
+                        <svg class="faq-icon w-6 h-6 text-primary flex-shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
+                    <div class="faq-answer hidden px-8 pb-8 text-gray-700 leading-relaxed border-t border-gray-200 animate-in">
+                        <p class="mb-4">
+                            Nous offrons plusieurs plans de tarification pour répondre à tous les budgets et besoins:
+                        </p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check text-accent mt-1 flex-shrink-0"></i>
+                                <span><strong>Plan Starter:</strong> À partir de 49€/mois pour les petits sites</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check text-accent mt-1 flex-shrink-0"></i>
+                                <span><strong>Plan Professionnel:</strong> À partir de 149€/mois pour les PME</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check text-accent mt-1 flex-shrink-0"></i>
+                                <span><strong>Plan Entreprise:</strong> À partir de 499€/mois pour les grandes organisations</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-check text-accent mt-1 flex-shrink-0"></i>
+                                <span><strong>Plan Sur Mesure:</strong> Pour les besoins spécialisés</span>
+                            </li>
+                        </ul>
+                        <p>
+                            Tous les plans incluent une période d'essai gratuit de 14 jours sans carte de crédit requise. Vous pouvez également bénéficier d'une réduction de 20% si vous vous engagez pour un an. Contactez notre équipe de ventes pour discuter d'un plan personnalisé adapté à vos besoins.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <!-- Contact Form Section - Centered Card Layout -->
+    <section id="contact" class="py-20" style="background: linear-gradient(to bottom, #EEF0FF, #EEF0FF);">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4" style="color: #111827;">Get in Touch</h2>
+          <p class="text-lg max-w-2xl mx-auto opacity-75" style="color: #111827;">
+            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+          </p>
+        </div>
+
+        <div class="rounded-2xl shadow-xl p-8 md:p-12" style="background: #ffffff;">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-6">
+            <input type="hidden" name="access_key" value="0b917c63-84c9-466a-b417-2cad89801d7f">
+            <input type="hidden" name="redirect" value="false">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <div>
+              <label for="name" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Full Name <span style="color: #ef4444;">*</span>
+              </label>
+              <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                required 
+                class="w-full px-4 py-3 border rounded-2xl outline-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#5B4BFF'; this.style.boxShadow='0 0 0 3px #5B4BFF20'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="John Doe"
+              >
+            </div>
+
+            <div>
+              <label for="email" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Email Address <span style="color: #ef4444;">*</span>
+              </label>
+              <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                required 
+                class="w-full px-4 py-3 border rounded-2xl outline-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#5B4BFF'; this.style.boxShadow='0 0 0 3px #5B4BFF20'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="john@example.com"
+              >
+            </div>
+
+            <div>
+              <label for="phone" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Phone Number
+              </label>
+              <input 
+                type="tel" 
+                name="phone" 
+                id="phone" 
+                class="w-full px-4 py-3 border rounded-2xl outline-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#5B4BFF'; this.style.boxShadow='0 0 0 3px #5B4BFF20'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="+1 (555) 000-0000"
+              >
+            </div>
+
+            <div>
+              <label for="message" class="block text-sm font-semibold mb-2" style="color: #111827;">
+                Message <span style="color: #ef4444;">*</span>
+              </label>
+              <textarea 
+                name="message" 
+                id="message" 
+                required 
+                rows="5" 
+                class="w-full px-4 py-3 border rounded-2xl outline-none resize-none transition-all"
+                style="border-color: #d1d5db; background: #ffffff; color: #111827;"
+                onfocus="this.style.borderColor='#5B4BFF'; this.style.boxShadow='0 0 0 3px #5B4BFF20'"
+                onblur="this.style.borderColor='#d1d5db'; this.style.boxShadow='none'"
+                placeholder="Tell us about your project or inquiry..."
+              ></textarea>
+            </div>
+
+            <div class="pt-4">
+              <button 
+                type="submit" 
+                id="submit-btn"
+                class="w-full font-semibold py-4 px-8 rounded-2xl transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-lg hover:shadow-xl"
+                style="background: #5B4BFF; color: #ffffff;"
+              >
+                Send Message
+              </button>
+            </div>
+            
+            <div id="form-message" class="mt-4 p-4 rounded-2xl hidden" style="background: #10b981; color: #ffffff;">
+              ✓ Message sent successfully!
+            </div>
+          </form>
+          
+          <script>
+            (function() {
+              const form = document.getElementById('contact-form');
+              const submitBtn = document.getElementById('submit-btn');
+              const messageDiv = document.getElementById('form-message');
+              
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+                
+                try {
+                  const formData = new FormData(form);
+                  const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                  });
+                  
+                  const result = await response.json();
+                  
+                  if (result.success) {
+                    form.reset();
+                    messageDiv.classList.remove('hidden');
+                    submitBtn.textContent = 'Sent';
+                    
+                    setTimeout(() => {
+                      messageDiv.classList.add('hidden');
+                      submitBtn.disabled = false;
+                      submitBtn.textContent = 'Send Message';
+                    }, 5000);
+                  } else {
+                    throw new Error('Submission failed');
+                  }
+                } catch (error) {
+                  submitBtn.disabled = false;
+                  submitBtn.textContent = 'Send Message';
+                  messageDiv.style.background = '#ef4444';
+                  messageDiv.textContent = '✗ Failed to send. Please try again.';
+                  messageDiv.classList.remove('hidden');
+                  
+                  setTimeout(() => {
+                    messageDiv.classList.add('hidden');
+                    messageDiv.style.background = '#10b981';
+                    messageDiv.textContent = '✓ Message sent successfully!';
+                  }, 5000);
+                }
+              });
+            })();
+          </script>
+        </div>
+
+        <div class="mt-12 text-center opacity-75">
+          <p style="color: #111827;">
+            Or email us directly at <a href="mailto:hello@example.com" class="font-semibold hover:opacity-80 transition-opacity" style="color: #5B4BFF;">hello@example.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  <footer class="bg-gray-900 text-gray-300 py-16 md:py-20">
+        <div class="max-w-7xl mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-16 mb-12">
+                <!-- Brand Column -->
+                <div class="flex flex-col gap-6">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
+                            <i class="fas fa-rocket text-white text-lg"></i>
+                        </div>
+                        <span class="font-bold text-lg text-white">Paris SEO AI</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Transformez votre présence en ligne avec l'intelligence artificielle et l'automatisation SEO de pointe.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product Column -->
+                <div class="flex flex-col gap-6">
+                    <h4 class="font-semibold text-white text-lg">Produit</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#features" class="text-gray-400 hover:text-accent transition-colors duration-300">Fonctionnalités</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-accent transition-colors duration-300">Avantages</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-accent transition-colors duration-300">Témoignages</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-accent transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://pac.com" class="text-gray-400 hover:text-accent transition-colors duration-300">Tarification</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company Column -->
+                <div class="flex flex-col gap-6">
+                    <h4 class="font-semibold text-white text-lg">Entreprise</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-accent transition-colors duration-300">À Propos</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-accent transition-colors duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-accent transition-colors duration-300">Ressources</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-accent transition-colors duration-300">Carrières</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-accent transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Column -->
+                <div class="flex flex-col gap-6">
+                    <h4 class="font-semibold text-white text-lg">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-envelope text-accent mt-1 flex-shrink-0"></i>
+                            <a href="mailto:admin@pac.com" class="text-gray-400 hover:text-accent transition-colors duration-300">admin@pac.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-accent mt-1 flex-shrink-0"></i>
+                            <span class="text-gray-400">Paris, France</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-phone text-accent mt-1 flex-shrink-0"></i>
+                            <a href="tel:+33123456789" class="text-gray-400 hover:text-accent transition-colors duration-300">+33 1 23 45 67 89</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-gray-500 text-sm">
+                        © 2025 Paris SEO AI Automation. Tous les droits réservés.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        Conçu avec <i class="fas fa-heart text-accent"></i> pour votre succès
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
